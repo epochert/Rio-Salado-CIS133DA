@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Evan's Social Media Page </title>
+    <!--Course:CIS133DA
+        Section:20448
+        Lesson:6
+ -->
+    <meta charset="UTF-8">
+    <meta name="description" content="CIS133DA Lesson 6 CSS Project">
+    <meta name="keywords" content="Social Media,Relative Link,Inserting Images, Background Images">
+    <meta name="author" content="Evan Pochert">
+</head>
+<body style="background-image:url('images/background.jpg');background-repeat:no-repeat; background-position:center;">
+    
+<header style="background-color: #f8f5f7; color:rgba(0, 0, 0, 0);text-align:center;"> 
+    
+    <h1 style="text-align:center"> Social Media </h1>
+        
+    
+    <nav>
+        <a href="../Lesson03/template.html">Template</a>
+        <a href="../Lesson04/poetry.html">poetry</a>
+        <a href="../Lesson04/template.html">Lesson 4 Template</a>
+        <a href="../Lesson05/inline_css.html">Inline CSS</a>
+    </nav>
+
+</header>
+<main>
+    <h2> Content Heading </h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur velit ratione pariatur, iste veritatis
+        consectetur delectus molestiae, dicta vel sit harum facere incidunt quisquam quo aperiam perferendis at iusto
+        corporis!</p>
+</main>
+<p>
+Social media can be a place to communicate with friends, share ideas, find ideas, learn new things and buy things in a marketplace. It's like having a newspaper, telephone book and yearbook into one central place.
+
+</p>
+
+<h2>Examples of Social Media </h2>
+<!--
+   description list to describe the a list item, incoporate an image 
+-->
+<dl>
+    <dt style="font-size: medium;font-weight: bold;">Facebook </dt>
+    <dd><img src="images/Facebook-logo.png" width="100" height="100" alt="Facebook an online community"></dd>
+    <dd><a href="https://www.facebook.com">FB</a></dd>
+    <dt>Facebook is a social networking site that makes it easy for you to connect and share with family and friends online.</dt>
+    <dd>Facebook, FB, The Book</dd>
+
+    <dt style="font-size: larger;font-weight: bold;"> Twitter</dt>
+    <dd><a href="https://www.twitter.com">Twitter</a></dd>
+    <dd><img src="images/Twitter-Logo.png" width="100" height="100" alt="Social Network"></dd>
+    <dd>Twitter is a 'microblogging' system that allows you to send and receive short posts called tweets. </dd>
+    <dd>Twitter, Tweets, 140 charachters or less</dd>
+
+    <dt style="font-size: inherit;font-weight: normal;">Instagram  </dt>
+    <dd><a href="https://www.Instagram.com">Instagram</a></dd>
+    <dd><img src="images/ig.webp" width="100" height="100" alt="A simple, fun & creative way to capture, edit and share"></dd>
+    <dd>Instagram is an American photo and video sharing social networking servic </dd>
+    <dd>Source: medium.com</dd>
+
+
+</dl>
+
+</body>
+
+<footer style="text-align:center;background-color: beige;">
+    <p>  <br> <b>Phone:</b>(480)800-4800
+      <br> <b>Email:</b> EVA2148987@riosalado.edu </p>  
+   <p> <small> Copyright 2021 &copy; by Evan Pochert  </small>  </p>
+</footer>
+
+</html>
